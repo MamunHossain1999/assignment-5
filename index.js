@@ -2,6 +2,9 @@ document.getElementById('donate').addEventListener('click', function(){
     const donate = parseFloat(document.getElementById('donation').value);
     const balance = parseFloat(document.getElementById('add-balance').innerText);
     const myAccount = parseFloat(document.getElementById('myAccount').innerText);
+
+
+
    
     // console.log(donate, balance, myAccount);
     if(isNaN(donate)){
@@ -24,6 +27,11 @@ document.getElementById('myAccount').innerText =  newBalance;
 
 my_modal_5.showModal()
 document.getElementById('donate').value = '';
+
+// history
+const p = document.createElement('p');
+p.innerText = `added: ${donation} tk. New balance: ${newBalance}`
+console.log(p)
 })
 
 // card 2
@@ -55,6 +63,12 @@ document.getElementById('myAccount').innerText =  newBalance;
 
 my_modal_5.showModal()
 document.getElementById('donate1').value = '';
+
+
+const div = document.createElement('div');
+div.classList.add('');
+div.innerHTML = ``
+document.getElementById('transjection-section').appendChild.apply.(div)
 })
 
 // card -3 
