@@ -65,10 +65,6 @@ my_modal_5.showModal()
 document.getElementById('donate1').value = '';
 
 
-const div = document.createElement('div');
-div.classList.add('');
-div.innerHTML = ``
-document.getElementById('transjection-section').appendChild.apply.(div)
 })
 
 // card -3 
